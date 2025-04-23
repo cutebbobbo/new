@@ -68,13 +68,13 @@
         const BG_MOVING_SPEED = 3;
 
         // 러너(르탄이) 설정
-        const RUNNER_WIDTH = 100;
-        const RUNNER_HEIGHT = 100;
+        const RUNNER_WIDTH = 200;
+        const RUNNER_HEIGHT = 200;
         const RUNNER_START_X = 10;
         const RUNNER_START_Y = 400;
 
         // 점프 설정
-        const JUMP_SPEED = 3;         // 점프 시 Y값 변화량
+        const JUMP_SPEED = 5;         // 점프 시 Y값 변화량
         const MAX_JUMP_HEIGHT = 20;   // 최대 점프 고정 Y위치
 
         // 장애물 설정
@@ -82,7 +82,7 @@
         const OBSTACLE_HEIGHT = 50;
         const OBSTACLE_FREQUENCY = 90; // 프레임마다 생성 빈도
         const OBSTACLE_SPEED = 4;
-        const SCORE_PER_OBSTACLE = 10; // 장애물 당 점수
+        const SCORE_PER_OBSTACLE = 1000; // 장애물 당 점수
         // 음원 및 이미지 경로 설정
         const ASSETS = {
             sounds: {
@@ -277,7 +277,7 @@
 </head>
 
 <body>
-    <p id="subtitle">르탄이와 함께 최고점을 향하여!! 😀</p>
+    <p id="subtitle">르탄이 X 성경이의 모험 😀</p>
     <p id="score">현재점수: 0</p>
     <main>
         <canvas id="canvas"></canvas>
